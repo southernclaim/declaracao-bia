@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 2em;
+}
+
+.black-screen {
+  background-color: black;
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.column {
+  flex-direction: column;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+#slideshow {
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+#slide {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
